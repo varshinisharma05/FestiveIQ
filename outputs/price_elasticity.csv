@@ -1,0 +1,16 @@
+category,variant,elasticity,ci_low,ci_high,skus_used,obs
+ALL (pooled),PRIMARY: single-list-price weeks,-1.67,-1.71,-1.62,1674,69923
+Bags & storage,PRIMARY: single-list-price weeks,-1.85,-1.99,-1.71,129,5418
+Bath & personal care,PRIMARY: single-list-price weeks,-1.92,-2.09,-1.75,43,1617
+Christmas & seasonal,PRIMARY: single-list-price weeks,-1.64,-1.86,-1.42,69,2707
+Garden & outdoor,PRIMARY: single-list-price weeks,-1.76,-2.01,-1.52,60,2302
+Gifts & novelties,PRIMARY: single-list-price weeks,-1.63,-1.77,-1.49,156,6644
+Home decor,PRIMARY: single-list-price weeks,-1.53,-1.61,-1.45,304,12307
+Jewellery & accessories,PRIMARY: single-list-price weeks,-1.43,-1.64,-1.21,92,3682
+Kitchen & dining,PRIMARY: single-list-price weeks,-1.46,-1.55,-1.36,231,9741
+Lighting & candles,PRIMARY: single-list-price weeks,-1.78,-1.9,-1.65,191,7999
+Party & wrapping,PRIMARY: single-list-price weeks,-1.89,-2.04,-1.74,133,5942
+Stationery & paper,PRIMARY: single-list-price weeks,-1.87,-2.0,-1.73,163,7073
+Toys & games,PRIMARY: single-list-price weeks,-2.06,-2.29,-1.83,103,4491
+ALL (pooled),sensitivity: average of line prices,-1.51,-1.56,-1.46,2691,168046
+ALL (pooled),sensitivity: revenue per unit (inflated by wholesale tiers),-2.02,-2.07,-1.97,2713,169714

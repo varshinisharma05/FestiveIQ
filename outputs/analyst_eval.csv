@@ -1,0 +1,22 @@
+question,correct,generated_sql
+What is the total revenue?,False,"SELECT ROUND(SUM(revenue), 2) AS total_revenue FROM sales"
+How many orders were placed in total?,True,SELECT COUNT(DISTINCT invoice) AS total_orders FROM sales
+Which 3 countries have the highest revenue?,True,"SELECT country, ROUND(SUM(revenue), 0) AS revenue FROM sales GROUP BY country ORDER BY revenue DESC LIMIT 3"
+Which month had the highest revenue?,True,SELECT month FROM sales GROUP BY month ORDER BY SUM(revenue) DESC LIMIT 1
+What was the average order value in November 2011?,True,"SELECT ROUND(SUM(revenue) / COUNT(DISTINCT invoice), 2) AS avg_order_value FROM sales WHERE month = '2011-11'"
+Which product sold the most units?,True,SELECT p.description FROM sales s JOIN products p ON s.stockcode = p.stockcode GROUP BY s.stockcode ORDER BY SUM(s.quantity) DESC LIMIT 1
+Which category has the highest revenue?,True,SELECT pc.category FROM sales s JOIN product_category pc ON s.stockcode = pc.stockcode GROUP BY pc.category ORDER BY SUM(s.revenue) DESC LIMIT 1
+What is the overall return rate as a percentage of revenue?,True,"SELECT ROUND(100.0 * (SELECT SUM(revenue) FROM returns) / (SELECT SUM(revenue) FROM sales), 2) AS return_rate_percentage"
+How many identified customers ordered in 2011?,True,"SELECT COUNT(DISTINCT customer_id) AS customers FROM sales WHERE customer_id IS NOT NULL AND strftime('%Y', invoice_date) = '2011'"
+What was the revenue in Germany?,True,"SELECT ROUND(SUM(revenue), 2) AS revenue FROM sales WHERE country = 'Germany'"
+Which week had the highest revenue?,True,SELECT week_start FROM sales GROUP BY week_start ORDER BY SUM(revenue) DESC LIMIT 1
+Which product earned the most revenue in the Christmas & seasonal category?,True,"SELECT p.description FROM sales s JOIN product_category pc ON s.stockcode = pc.stockcode JOIN products p ON s.stockcode = p.stockcode WHERE pc.category = 'Christmas & seasonal' GROUP BY s.stockcode, p.description ORDER BY SUM(s.revenue) DESC LIMIT 1"
+How many customers placed more than one order?,True,SELECT COUNT(*) FROM (SELECT customer_id FROM sales WHERE customer_id IS NOT NULL GROUP BY customer_id HAVING COUNT(DISTINCT invoice) > 1)
+Which category has the highest return rate by revenue?,False,"SELECT pc.category 
+FROM product_category pc 
+JOIN sales s ON pc.stockcode = s.stockcode 
+LEFT JOIN returns r ON pc.stockcode = r.stockcode 
+GROUP BY pc.category 
+ORDER BY SUM(r.revenue) / SUM(s.revenue) DESC 
+LIMIT 1"
+What was total revenue in December 2010?,True,"SELECT ROUND(SUM(revenue), 0) AS revenue FROM sales WHERE month = '2010-12'"

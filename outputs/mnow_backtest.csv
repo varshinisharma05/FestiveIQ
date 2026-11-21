@@ -1,0 +1,5 @@
+selection_rule,products_picked,festive_revenue_captured_pct,festive_units_captured_pct,festive_return_rate_pct,still_selling_pct
+"M-Now score (velocity, consistency, low returns, revenue)",120,19.2,19.1,2.42,97.5
+top by past revenue only,120,24.7,19.4,2.3,96.7
+top by past units only,120,20.9,23.9,1.97,96.7
+"units rank + guardrails (steady >=50% of weeks, returns <=5%) [added after first look]",120,17.7,22.1,1.96,95.0

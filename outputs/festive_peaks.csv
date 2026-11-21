@@ -1,0 +1,25 @@
+category,year,baseline_weekly_revenue,ramp_start_week,peak_week,peak_multiple_of_baseline
+Bags & storage,2010,25035,2010-09-27,2010-11-08,2.4
+Bags & storage,2011,32080,2011-09-19,2011-09-19,2.3
+Bath & personal care,2010,2074,2010-09-13,2010-12-06,10.3
+Bath & personal care,2011,1746,2011-09-05,2011-11-14,11.2
+Christmas & seasonal,2010,4783,2010-09-06,2010-11-08,10.6
+Christmas & seasonal,2011,4080,2011-09-05,2011-11-14,14.5
+Garden & outdoor,2010,5966,,2010-11-22,1.2
+Garden & outdoor,2011,4766,2011-10-17,2011-10-17,2.2
+Gifts & novelties,2010,7356,2010-09-20,2010-11-15,3.2
+Gifts & novelties,2011,6120,2011-09-19,2011-09-19,3.4
+Home decor,2010,28657,2010-09-27,2010-11-08,2.6
+Home decor,2011,25423,2011-09-12,2011-10-03,2.9
+Jewellery & accessories,2010,3396,2010-09-20,2010-11-15,2.4
+Jewellery & accessories,2011,2604,2011-09-19,2011-11-14,2.3
+Kitchen & dining,2010,24469,2010-09-27,2010-09-27,2.1
+Kitchen & dining,2011,27012,2011-09-19,2011-09-19,1.8
+Lighting & candles,2010,16206,2010-09-27,2010-11-29,2.5
+Lighting & candles,2011,12574,2011-09-19,2011-11-14,3.6
+Party & wrapping,2010,12322,2010-09-27,2010-09-27,2.1
+Party & wrapping,2011,12766,,2011-10-03,1.4
+Stationery & paper,2010,5494,2010-09-20,2010-09-27,3.8
+Stationery & paper,2011,5785,2011-09-19,2011-11-07,2.9
+Toys & games,2010,11275,2010-09-20,2010-11-08,2.4
+Toys & games,2011,10890,2011-09-19,2011-11-07,2.8

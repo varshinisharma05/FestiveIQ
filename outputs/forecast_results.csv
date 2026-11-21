@@ -1,0 +1,11 @@
+horizon_weeks,method,test_WAPE_pct,test_weeks,train_rows
+1,model (ridge),21.0,8,432
+1,baseline_ly,20.4,8,432
+1,baseline_ly_growth,17.8,8,432
+1,baseline_ma4,17.8,8,432
+1,blend 0.5*model+0.5*last-year (added after first look),19.0,8,432
+4,model (ridge),21.4,8,396
+4,baseline_ly,20.4,8,396
+4,baseline_ly_growth,22.2,8,396
+4,baseline_ma4,23.9,8,396
+4,blend 0.5*model+0.5*last-year (added after first look),18.9,8,396

@@ -1,0 +1,9 @@
+step,rows_before,rows_removed,rows_after
+raw rows,1067371,0,1067371
+drop exact duplicate rows,1067371,34335,1033036
+"drop non-product stock codes (POST, DOT, M, BANK CHARGES...)",1033036,5980,1027056
+drop rows with price <= 0,1027056,5928,1021128
+drop negative-quantity rows that are not cancellations,1021128,0,1021128
+drop mistaken mega-order + cancellation pairs,1021128,4,1021124
+final: sales lines kept,1021124,17912,1003212
+final: return lines kept (separate table),1021124,1003212,17912

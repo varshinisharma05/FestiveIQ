@@ -1,0 +1,33 @@
+{
+ "period": "2011-11-07 to 2011-12-04",
+ "weeks": 4,
+ "revenue": 1342652.0,
+ "revenue_same_weeks_last_year": 1328266.0,
+ "yoy_pct": 1.1,
+ "top_categories": [
+  {
+   "category": "Bags & storage",
+   "revenue": 233929.0,
+   "yoy_pct": 20.4
+  },
+  {
+   "category": "Home decor",
+   "revenue": 228450.0,
+   "yoy_pct": -3.4
+  },
+  {
+   "category": "Christmas & seasonal",
+   "revenue": 186803.0,
+   "yoy_pct": 18.3
+  }
+ ],
+ "highest_return_rate_category": {
+  "category": "Stationery & paper",
+  "return_rate_pct": 2.8
+ },
+ "best_selling_product": {
+  "name": "RABBIT NIGHT LIGHT",
+  "units": 13689
+ },
+ "assumed_margin_pct": 30
+}
