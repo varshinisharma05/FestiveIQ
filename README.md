@@ -5,6 +5,8 @@
 [![Gemini](https://img.shields.io/badge/Gemini%20AI-Flash--Lite-4285F4)](src/analyst.py)
 [![Documentation](https://img.shields.io/badge/Master%20Guide-Interview%20Walkthrough-blue)](PROJECT_WALKTHROUGH.md)
 
+Live Link:(https://festiveiq-myntra.streamlit.app/)
+
 Category managers and demand planners must decide before a major festive sale:
 1. **How much inventory to hold** per category and when does the ramp-up start?
 2. **Which products deserve fast-delivery shelf space** (e.g., M-Now / 30-minute delivery dark stores)?
@@ -136,11 +138,3 @@ streamlit run app.py
 
 ---
 
-## Cloud Hosting (Streamlit Community Cloud)
-
-This repository is optimized for free 1-click deployment:
-1. Push to your GitHub repository.
-2. Go to [share.streamlit.io](https://share.streamlit.io/) and select this repository.
-3. Set entry point to `app.py`.
-4. Add `GEMINI_API_KEY` under **Advanced Settings > Secrets** if using live AI generation.
-5. Click **Deploy**! (The 23.8 MB database zip extracts automatically on cloud boot).
