@@ -1,6 +1,8 @@
 """FestiveIQ dashboard.  Run:  streamlit run app.py
 Run Stages 1-6 first (see README) so data/retail.db and outputs/*.csv exist."""
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import numpy as np
 import pandas as pd
 import plotly.express as px
